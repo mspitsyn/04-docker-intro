@@ -5,20 +5,20 @@
 [mspitsyn/custom-nginx](https://hub.docker.com/repository/docker/mspitsyn/custom-nginx/general)  
 
 ## Решение задачи 2  
-[task-2](https://github.com/mspitsyn/04-docker-intro/blob/main/screenshots/task-2.png)  
-[task-2-1](https://github.com/mspitsyn/04-docker-intro/blob/main/screenshots/task-2-1.png)  
+![task-2](https://github.com/mspitsyn/04-docker-intro/blob/main/screenshots/task-2.png)  
+![task-2-1](https://github.com/mspitsyn/04-docker-intro/blob/main/screenshots/task-2-1.png)  
 
 ## Решение задачи 3  
-[task-3](https://github.com/mspitsyn/04-docker-intro/blob/main/screenshots/task-3.png)  
+![task-3](https://github.com/mspitsyn/04-docker-intro/blob/main/screenshots/task-3.png)  
 Работа контейнера завершилась, т.к. Ctrl-C это сигнал завершения процесса.  
 Контейнер завершает работу, если все процессы выполнились.  
 Для фоновой работы процесса необходимо установить ключ -d и тогда контейнер продолжит работу.  
-[task-3-1](https://github.com/mspitsyn/04-docker-intro/blob/main/screenshots/task-3-1.png)  
+![task-3-1](https://github.com/mspitsyn/04-docker-intro/blob/main/screenshots/task-3-1.png)  
 Обращение на порт 8080 выдает ошибку, т.к. 80 порт нашего контейнера который прокидывался на порт 8080 мы поменяли 81  
-[task-3-2](https://github.com/mspitsyn/04-docker-intro/blob/main/screenshots/task-3-1.png)  
+![task-3-2](https://github.com/mspitsyn/04-docker-intro/blob/main/screenshots/task-3-1.png)  
 
 ## Решение задачи 4  
-[task-4](https://github.com/mspitsyn/04-docker-intro/blob/main/screenshots/task-4.png)  
+![task-4](https://github.com/mspitsyn/04-docker-intro/blob/main/screenshots/task-4.png)  
 
 ## Решение задачи 5  
 5.1. Создал 2 файла с содержимым из задания  
@@ -38,8 +38,8 @@ services:
      volumes:
        - /var/run/docker.sock:/var/run/docker.sock
 ```  
-5.3. [task-5.3](https://github.com/mspitsyn/04-docker-intro/blob/main/screenshots/task-5-3.png)  
-5.4. [task-5.4](https://github.com/mspitsyn/04-docker-intro/blob/main/screenshots/task-5-4.png)  
-5.5. [task-5.5](https://github.com/mspitsyn/04-docker-intro/blob/main/screenshots/task-5-5.png)  
-5.6. [task-5.6](https://github.com/mspitsyn/04-docker-intro/blob/main/screenshots/task-5-6.png)  
-5.7. [task-5.7](https://github.com/mspitsyn/04-docker-intro/blob/main/screenshots/task-5-7.png)  
+5.3. ![task-5.3](https://github.com/mspitsyn/04-docker-intro/blob/main/screenshots/task-5-3.png)  
+5.4. ![task-5.4](https://github.com/mspitsyn/04-docker-intro/blob/main/screenshots/task-5-4.png)  
+5.5. ![task-5.5](https://github.com/mspitsyn/04-docker-intro/blob/main/screenshots/task-5-5.png)  
+5.6. ![task-5.6](https://github.com/mspitsyn/04-docker-intro/blob/main/screenshots/task-5-6.png)  
+5.7. ![task-5.7](https://github.com/mspitsyn/04-docker-intro/blob/main/screenshots/task-5-7.png)  
