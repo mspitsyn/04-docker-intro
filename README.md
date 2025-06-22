@@ -10,7 +10,11 @@
 
 ## Решение задачи 3
 [task-3](https://github.com/mspitsyn/04-docker-intro/blob/main/screenshots/task-3.png)
+Работа контейнера завершилась, т.к. Ctrl-C это сигнал завершения процесса.
+Контейнер завершает работу, если все процессы выполнились. 
+Для фоновой работы процесса необходимо установить ключ -d и тогда контейнер продолжит работу.
 [task-3-1](https://github.com/mspitsyn/04-docker-intro/blob/main/screenshots/task-3-1.png)
+Обращение на порт 8080 выдает ошибку, т.к. 80 порт нашего контейнера который прокидывался на порт 8080 мы поменяли 81
 [task-3-2](https://github.com/mspitsyn/04-docker-intro/blob/main/screenshots/task-3-1.png)
 
 ## Решение задачи 4
